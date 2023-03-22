@@ -12,9 +12,9 @@ Também pediram para que o avatar que eles tem como mascote da marca, fosse anim
 
 ___
 
-## Estado Atual: v0.1
+## Estado Atual: v0.2
 
-Atualmente, preparando todo o esqueleto da **documentação**, para acompanhamento do Projeto.
+Atualmente, estou começando a propotipação do site, onde ja disponibilizamos a pagina inicial 25% completa, mas tivemos eventuais problemas no dising responsivo, sitados mais detalhadamente abaixo. 
     
 ---
 
@@ -34,6 +34,12 @@ ___
 
         - **Resolvido:** Atualizei toda a documentação para o formatado da linguagem MarkDown, que recentimente descobri a usabilidade e como ela ta integrada em varios sistemas que já vinha usando. 
 
+- ### Versão 0.2
 
+    1. #### Menu Hamburg para Mobile (em andamento)
+
+        - Enquanto fazemos o prototipo da pragina inicial, tivemos problemas em fazer o menu resolviso, pois quando na resolução de monitor, ele cria um espaço a mais, em vez de sumir e só aparecer quando na resolução mobile.
+        
+        
 ---
     

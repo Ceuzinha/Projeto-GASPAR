@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------Header--------------------------------------*/
+
+.caixa-header{
+
+    display: flex;
+    background-image:linear-gradient(#36896dea,#58826a);
+    /*background-image: linear-gradient(#309f80,#58826a);*/
+    width: 100%;
+    height: 10vh;
+}
+.caixa-header > .logo-header{
+    position: relative;
+    left: 303px;
+    width: 300px;
+    margin-top: 10px;
+    
+}
+.lista-header{
+    position: relative;
+    left: 110px;
+    margin: 0 auto;
+    margin-top: 10;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: nome;
+}
+.lista-header > li {
+    float: left;
+}
+.lista-header > li > a{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;    font-size: 25px;
+    margin-top: 25px;    padding-left: 90px;
+    display: flex;       text-align: center;     
+    position: relative;   
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+li a:hover {
+    color: #3acca3;
+    opacity: 80%;
+  
+}
+
+/*----------------------------------------Background--------------------------------------*/
+
+.caixa-bgd{
+    margin: 0auto;
+    display: flex;
+    width: 100%;
+    
+}
+.caixa-bgd > .background{
+    background-image:url(../Img`s/Cadastro.jpg);
+    background-size:cover;      background-position: center;
+    width: 100%;                height:100vh;
+    overflow: hidden;           margin:0 auto;
+
+}
+.caixa-bgd > .background > .logo-bgd {
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 300px;           font-weight: 100;
+    font-size: 23px;
+    position: relative;     left: 345px;
+    letter-spacing: 10px;   word-spacing: 2px;
+    display: flex;          margin-top: 20px;
+    color: #3acca3;       opacity: 100%;
+    transition: 1s;
+}
+.caixa-bgd > .background > .logo-bgd:hover{
+    color: white;
+
+}
+.caixa-bgd > .background > .simbolo-bgd{
+    
+    position: relative;     left: 404px;
+    width: 90px;
+    transform:scaleX(-1);
+}
+
